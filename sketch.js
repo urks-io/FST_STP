@@ -21,14 +21,14 @@ function draw() {
 
   fill(255, 204, 100);
  beginShape();
- vertex(0, 100);
- vertex(0, 66);
- vertex(15, 60);
- vertex(15, 33);
- vertex(30, 27);
- vertex(30, 0);
- vertex(60, 12);
- vertex(0, 100);
+ vertex(0, 200);
+ vertex(0, 120);
+ vertex(30, 110);
+ vertex(30, 66);
+ vertex(60, 54);
+ vertex(60, 0);
+ vertex(120, 24);
+ vertex(0, 200);
   endShape(CLOSE);
 pop();
 
