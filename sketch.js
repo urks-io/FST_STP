@@ -16,7 +16,7 @@ function draw() {
  
  
  push();
-  translate(100, 320);
+  translate(100, 220);
 
 
   fill(255, 204, 100);
@@ -31,7 +31,20 @@ function draw() {
   vertex(0,350);
   endShape();
 pop();
-
+push();
+translate(70,180);
+rotate(PI/10);
+beginShape();
+  vertex(0, 350);
+  vertex(-2, 200);
+  vertex(22, 210);
+  vertex(18, 100);
+  vertex(50, 110);
+  vertex(48, -20);
+  vertex(110, 0);
+  vertex(0,350);
+  endShape();
+  pop();
 
 
 }
