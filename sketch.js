@@ -20,16 +20,16 @@ function draw() {
 
 
   fill(255, 204, 100);
- beginShape();
- vertex(0, 200);
- vertex(0, 120);
- vertex(30, 110);
- vertex(30, 66);
- vertex(60, 54);
- vertex(60, 0);
- vertex(120, 24);
- vertex(0, 200);
-  endShape(CLOSE);
+  beginShape();
+  vertex(0, 350);
+  vertex(-2, 200);
+  vertex(22, 210);
+  vertex(18, 100);
+  vertex(50, 110);
+  vertex(48, -20);
+  vertex(110, 0);
+  vertex(0,350);
+  endShape();
 pop();
 
 
