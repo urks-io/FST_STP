@@ -17,7 +17,7 @@ function draw() {
  
  push();
   translate(100, 320);
- rotate(PI);
+
 
   fill(255, 204, 100);
  beginShape();
