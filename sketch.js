@@ -3,6 +3,8 @@
 
 function setup() {
   createCanvas(400, 600);
+  let from = color(255, 204, 0);
+  let to = color(15, 10, 95);
 
 }
 
@@ -13,10 +15,11 @@ function draw() {
   circle(233, 153, 250);
  
  
+ push();
   translate(200, 220);
  
 
-  fill(255, 204, 0);
+  fill(255, 204, 100);
  beginShape();
  vertex(40,20);
   vertex(40,120);
@@ -30,8 +33,8 @@ function draw() {
   vertex(100, 90);
   vertex(120, 20);
   endShape(CLOSE);
+pop();
 
 
-  createColorPicker();
 
 }
