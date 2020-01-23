@@ -19,7 +19,7 @@ function draw() {
   translate(100, 260);
 
 
-  fill(255, 204, 100);
+  fill(255, 204, 00);
   beginShape();
   vertex(0, 350);
   vertex(-2, 200);
@@ -31,7 +31,7 @@ function draw() {
   vertex(0,350);
   endShape();
   stroke(15, 10, 95);
-  line(50, 110, 48, -30)
+  line(50, 110, 48, -50)
 pop();
 
 
