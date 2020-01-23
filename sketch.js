@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400, 600);
+  createCanvas(450, 580);
 
 
 }
@@ -34,6 +34,88 @@ for (i = 1; i < 100; i++) {
   circle(233, 153, 2*i);
       
 }
+ fill(a);
+  circle(233, 153, 970);
+  fill(b);
+  circle(233, 153, 955);
+  fill(c);
+  circle(233, 153, 940);
+  fill(d);
+  circle(233, 153, 925);  
+  
+  fill(a);
+  circle(233, 153, 910);
+  fill(b);
+  circle(233, 153, 895);
+  fill(c);
+  circle(233, 153, 880);
+  fill(d);
+  circle(233, 153, 865);   
+  
+  fill(a);
+  circle(233, 153, 850);
+  fill(b);
+  circle(233, 153, 835);
+  fill(c);
+  circle(233, 153, 820);
+  fill(d);
+  circle(233, 153, 805);  
+  
+  fill(a);
+  circle(233, 153, 790);
+  fill(b);
+  circle(233, 153, 775);
+  fill(c);
+  circle(233, 153, 760);
+  fill(d);
+  circle(233, 153, 745);  
+  
+   fill(a);
+  circle(233, 153, 730);
+  fill(b);
+  circle(233, 153, 715);
+  fill(c);
+  circle(233, 153, 700);
+  fill(d);
+  circle(233, 153, 685);
+  
+  fill(a);
+  circle(233, 153, 670);
+  fill(b);
+  circle(233, 153, 655);
+  fill(c);
+  circle(233, 153, 640);
+  fill(d);
+  circle(233, 153, 625);
+    
+  fill(a);
+  circle(233, 153, 610);
+  fill(b);
+  circle(233, 153, 595);
+  fill(c);
+  circle(233, 153, 580);
+  fill(d);
+  circle(233, 153, 565);
+  
+  fill(a);
+  circle(233, 153, 550);
+  fill(b);
+  circle(233, 153, 535);
+  fill(c);
+  circle(233, 153, 520);
+  fill(d);
+  circle(233, 153, 505);
+  
+  
+  fill(a);
+  circle(233, 153, 490);
+  fill(b);
+  circle(233, 153, 475);
+  fill(c);
+  circle(233, 153, 460);
+  fill(d);
+  circle(233, 153, 445);
+  
   
   fill(a);
   circle(233, 153, 430);
@@ -86,6 +168,11 @@ noStroke();
   stroke(15, 10, 95);
   line(50, 110, 48, -30);
   line(0, 350, 104, 20);
+  line(0, 350, -2, 200);
+  line(-2, 200, 22, 210);
+  line(22, 210, 18, 100);
+  line(18, 100, 50, 110);
+
  pop();
  // push();
  // translate(70,180);
