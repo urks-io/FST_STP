@@ -32,6 +32,7 @@ function draw() {
   endShape();
   stroke(15, 10, 95);
   line(50, 110, 48, -50)
+  line(0, 350, 104, 20)
 pop();
 
 
